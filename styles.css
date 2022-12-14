@@ -1,6 +1,19 @@
-/* Your CSS Code here. */
+* {
+    margin:0;
+    box-sizing: border-box;
+} 
 .holder {
-    display: flex;
-    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100vw;
+    height:100vh;
+    background-color: aliceblue;
+} 
+.divitems {
+    width:100px;
+    height:100px;
+    background-color: antiquewhite;
 }
+/* Your CSS Code here. */
